@@ -1,43 +1,37 @@
 {
-  "manifest": {
+  "skillManifest": {
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "A Buddy in the bathroom that helps with parenting and life skills.",
+          "summary": "A game to catch all the creatures.",
           "examplePhrases": [
-            "Alexa, open Bathroom Buddy",
-            "Set a timer for me to brush my teeth",
-            "Sing to me as I wash my hands"
+            "Alexa open Bo Jo",
+            "Catch a creature",
+            "Alexa tell Bo Jo to catch a creature"
           ],
           "keywords": [
-            "Buddy",
-            "Bathroom",
-            "BathroomBuddy",
-            "Life",
-            "Hack",
-            "Lifehack",
-            "BB",
-            "Parenting",
-            "Easier"
+            "Bo",
+            "Jo",
+            "Game",
+            "Catching",
+            "Creatures"
           ],
-          "name": "Bathroom Buddy",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ee01/129cd76a1c204bebb9beccc212a18ef7/APP_ICON?versionId=5OclcrxSXGO3jE4_2.J3yHvcp2wv2R4u&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524424609&Signature=ep%2FfXFlCUTtzKYiHgpXZKITjhBs%3D",
-          "description": "Bathroom Buddy is an Alexa skill for many purposes. Number one, it is a life hack for parenting since it teaches young kids good hygeine habits. Number two, it helps with overall wellness since it teaches good life skills like washing hands, and brushing teeth for the appropriate amount of time while also making it fun.\n\nAsk Bathroom Buddy any of the following and see how he responds.\n~ \"I went potty\"\n~ \"Mirror mirror on the wall who is the fairest one of all\"\n~ \"Magic mirror in my hand who is the fairest in all the land\"\n~ \"Give me a tip\"\n~ \"How do I brush teeth\"\n~ \"Set a timer for me to brush my teeth\"\n~ \"Sing to me as a wash my hands\"\n~ \"How do I floss my teeth\"\n~ \"How do I wash my hands\"\n\n- The time to wash hands and brush teeth is advised by health professionals.\n- The description of how to brush and floss teeth is by Colgate. - https://www.colgate.com/en-us/oral-health/basics/brushing-and-flossing\n- The description of how to wash your hands is by Mayo Clinic. - https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/hand-washing/art-20046253",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/340b/d83a3f9a3df243cd9a6a9fb1788c2314/APP_ICON_LARGE?versionId=ndgb18uESaIzJP5_ZDlSfkJS41OfbeSg&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524424609&Signature=f2uFWJ2MCObF90k1ncW3olXUsVw%3D"
+          "name": "BoJo",
+          "smallIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.83ea262b-2111-43c2-b9bc-f9013fbbe76a/images/eyJkIjoiUWpTQU1URFNuMjRzNXdCc2FZQnl1eHlPNDVjdW9kS0VlZUJiYWY5YnpXb1QyeDVxWFlZUU1HNE90bzA2NUNNWG5oQVFnKzgrRG5BbUlDbU9nZHUrdDZPK01jWTJpc2l2amZXakFFQStQWnVreE54cElvZ3MyeVdmdHR1Z2hVK0UiLCJpdiI6IkZzampYOGk4dkozcmg3RzRiOTZXWnc9PSIsInYiOjF9",
+          "description": "A game to catch all the creatures. New creatures coming soon.",
+          "largeIconUri": "https://api.amazonalexa.com/v0/skills/amzn1.ask.skill.83ea262b-2111-43c2-b9bc-f9013fbbe76a/images/eyJkIjoiMGVVcFZ1K1FveVNTS3p1aksrMG1FMmUwK21kSUJNK3cyaXJWSGQ4VWUwZDZuMk1LeG1aSEYvaEhxWHlIcTFqVlNDVGxCS2tBU3pRV0cwVFoyUGVjZkZWQlhGQ3hDLzZna1g2QkNvWkV1ZVZjUFAwY3ZlY2ZCcytkSVlKd1VLeFk4YVdxYzhKbTZVeGFSQzBkdWNzaUVRPT0iLCJpdiI6Im1RTXcrb0FNckVuYkJPY0NIQXhLL0E9PSIsInYiOjF9"
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "First, open Bathroom Buddy by saying \"Alexa open Bathroom Buddy\" it will then give you a short introduction. Respond by saying any of the following.\n\"I went potty\"\n\"Mirror mirror on the wall who is the fairest one of all\"\n\"Magic mirror in my hand who is the fairest in all the land\"\n\"Give me a tip\"\n\"How do I brush teeth\"\n\"Set a timer for me to brush my teeth\"\n\"Sing to me as a wash my hands\"\n\"How do I floss my teeth\"\n\"How do I wash my hands\"\n\nFor Alexa life skills devpost hackathon",
-      "category": "SELF_IMPROVEMENT",
-      "distributionMode": "PUBLIC",
+      "testingInstructions": "Ask Alexa to open Bo Jo, she will then give a short intro of how to play. Next say, \"catch a creature\" it will then pick a creature. This is for the devpost contest.",
+      "category": "CHILDRENS_GAMES",
       "distributionCountries": []
     },
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda/custom"
-        },
-        "interfaces": []
+          "sourceDir": "lambda\\custom"
+        }
       }
     },
     "manifestVersion": "1.0",

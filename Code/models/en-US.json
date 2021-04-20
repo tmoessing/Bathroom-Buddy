@@ -1,164 +1,125 @@
 {
-  "interactionModel": {
-    "languageModel": {
-      "invocationName": "bathroom buddy",
-      "intents": [
-        {
-          "name": "AMAZON.CancelIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.HelpIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.NoIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.StopIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.YesIntent",
-          "samples": []
-        },
-        {
-          "name": "BrushTeethIntent",
-          "samples": [
-            "I would like to brush my teeth",
-            "brush teeth",
-            "set a timer for me to brush my teeth",
-            "brush my teeth",
-            "I want to brush my teeth",
-            "Bathroom buddy help me brush my teeth",
-            "help me brush my teeth please",
-            "set a timer for me to brush my teeth please",
-            "Buddy brush my teeth",
-            "Buddy brush my teeth please"
-          ]
-        },
-        {
-          "name": "HandMirrorIntent",
-          "samples": [
-            "Magic mirror in my hand who is the fairest in all the land",
-            "in my hand who is the fairest in the land",
-            "who is the fairest in the land",
-            "fairest in the land"
-          ]
-        },
-        {
-          "name": "LearnBrushTeethIntent",
-          "samples": [
-            "I would like to learn how to brush my teeth",
-            "How do I brush my teeth",
-            "Show me how to brush my teeth",
-            "Give me some tips for brushing teeth"
-          ]
-        },
-        {
-          "name": "PottyIntent",
-          "samples": [
-            "potty",
-            "I went potty",
-            "I went to the bathroom",
-            "I went number one",
-            "I went number two",
-            "I went to the loo",
-            "I went to the toliet",
-            "I went one",
-            "I went two"
-          ]
-        },
-        {
-          "name": "ReadyIntent",
-          "samples": [
-            "I'm Ready now",
-            "bathroom buddy I'm Ready"
-          ]
-        },
-        {
-          "name": "TipIntent",
-          "samples": [
-            "bathroom buddy i want a tip please",
-            "bathroom buddy i want a tip",
-            "bathroom buddy give me some tips",
-            "bathroom buddy give me some tips please",
-            "bathroom buddy give me a tip please",
-            "bathroom buddy I would like another tip",
-            "bathroom buddy I would like to get a tip",
-            "Bathroom buddy give me a tip",
-            "I would like to get a tip",
-            "I would like another tip",
-            "give me a tip",
-            "tip",
-            "tip please",
-            "give me a tip please",
-            "I want a tip",
-            "I want a tip please",
-            "Can I get a tip",
-            "Can I get a tip please",
-            "give me some tips",
-            "give me some tips please"
-          ]
-        },
-        {
-          "name": "WallMirrorIntent",
-          "samples": [
-            "Mirror mirror on the wall who is the fairest one of all",
-            "on the wall who is the fairest one of all",
-            "who is the fairest one of all",
-            "fairest one of all"
-          ]
-        },
-        {
-          "name": "WashHandsIntent",
-          "samples": [
-            "bathroom buddy Sing to me as I wash my hands",
-            "bathroom buddy I would like to wash my hands",
-            "I would like to wash my hands",
-            "wash my hands",
-            "Sing to me as I wash my hands",
-            "wash hands",
-            "I want to wash my hands",
-            "Help me wash my hands",
-            "Bathroom Buddy help me wash my hands",
-            "Buddy wash my hands with me",
-            "Buddy wash my hands",
-            "Bathroom Buddy wash my hands",
-            "Set me a timer to wash my hands",
-            "set a timer to wash my hands",
-            "bathroom buddy sent a timer for me to wash my hands"
-          ]
-        },
-        {
-          "name": "LearnFlossIntent",
-          "samples": [
-            "I would like to learn how to floss",
-            "bathroom buddy give me some tips for flossing",
-            "bathroom buddy tell me how to floss",
-            "Bathroom Buddy how do I floss",
-            "Tell me how to floss",
-            "Give me some tips for flossing",
-            "flossing",
-            "How do I floss ",
-            "How do i floss my teeth"
-          ]
-        },
-        {
-          "name": "LearnWashHandsIntent",
-          "samples": [
-            "i would like to learn how to wash my hands",
-            "bathroom buddy I would like to learn how to wash my hands",
-            "bathroom buddy give me some tips for washing my hands",
-            "give me some tips for washing my hands",
-            "bathroom buddy tell me how to wash my hands",
-            "bathroom buddy how do i wash my hands",
-            "Tell me how to wash my hands ",
-            "How do I wash my hands"
-          ]
-        }
-      ]
-    }
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NoIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.YesIntent",
+        "samples": []
+      },
+      {
+        "name": "BrushTeethIntent",
+        "samples": [
+          "set a timer for me to brush my teeth",
+          "brush my teeth",
+          "I want to brush my teeth",
+          "Bathroom buddy help me brush my teeth",
+          "help me brush my teeth please",
+          "set a timer for me to brush my teeth please",
+          "Buddy brush my teeth",
+          "Buddy brush my teeth please"
+        ],
+        "slots": []
+      },
+      {
+        "name": "HandMirrorIntent",
+        "samples": [
+          "Magic mirror in my hand who is the fairest in the land",
+          "in my hand who is the fairest in the land",
+          "who is the fairest in the land",
+          "fairest in the land"
+        ],
+        "slots": []
+      },
+      {
+        "name": "LearnBrushTeethIntent",
+        "samples": [
+          "How do I brush my teeth",
+          "Show me how to brush my teeth",
+          "Give me some tips for brushing teeth"
+        ],
+        "slots": []
+      },
+      {
+        "name": "PottyIntent",
+        "samples": [
+          "potty",
+          "I went potty",
+          "I went to the bathroom",
+          "I went number one",
+          "I went number two",
+          "I went to the loo",
+          "I went to the toliet",
+          "I went one",
+          "I went two"
+        ],
+        "slots": []
+      },
+      {
+        "name": "ReadyIntent",
+        "samples": [
+          "I'm Ready now",
+          "bathroom buddy I'm Ready"
+        ],
+        "slots": []
+      },
+      {
+        "name": "TipIntent",
+        "samples": [
+          "give me a tip",
+          "tip",
+          "tip please",
+          "give me a tip please",
+          "I want a tip",
+          "I want a tip please",
+          "Can I get a tip",
+          "Can I get a tip please",
+          "give me some tips",
+          "give me some tips please"
+        ],
+        "slots": []
+      },
+      {
+        "name": "WallMirrorIntent",
+        "samples": [
+          "Mirror mirror on the wall who is the fairest one of all",
+          "on the wall who is the fairest one of all",
+          "who is the fairest one of all",
+          "fairest one of all"
+        ],
+        "slots": []
+      },
+      {
+        "name": "WashHandsIntent",
+        "samples": [
+          "wash hands",
+          "I want to wash my hands",
+          "Help me wash my hands",
+          "Bathroom Buddy help me wash my hands",
+          "Buddy wash my hands with me",
+          "Buddy wash my hands",
+          "Bathroom Buddy wash my hands",
+          "Set me a timer to wash my hands",
+          "set a timer to wash my hands",
+          "bathroom buddy sent a timer for me to wash my hands"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "bathroom buddy"
   }
 }
