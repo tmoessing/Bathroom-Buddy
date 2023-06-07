@@ -718,16 +718,20 @@ def handle_help_intent(intent_name, session):
     card_content    = 'Say, "I went potty" to be congratulated, '        \
                     + 'or say "Mirror mirror on the wall, who is the fairest one of them all, " ' \
                     + 'or say "Sing me a song while I wash my hands" for a 20 second timer, '  \
-                    + 'or say "Give me a tip" for  advice, ' \
+                    + 'or say "Give me a tip" for advice, ' \
                     + 'or say "How do I brush my teeth?" for a description on how to brush teeth, '  \
-                    + 'or say "Set a timer for me to brush my teeth" for a 2 minute timer. '
+                    + 'or say "Set a timer for me to brush my teeth" for a 2 minute timer, '       \
+                    + 'or say "How do I floss my teeth?" for a description on how to floss teeth, '             \
+                    + 'or say "How do I wash my hands?" for a description on how to wash hands.'           
 
     speech_output   = "Say, 'I went potty' to be congratulated. "          \
                     + "or say 'Mirror mirror on the wall, who is the fairest one of them all,' " \
                     + "or say 'Sing me a song while I wash my hands' for a 20 second timer,"  \
                     + "or say 'Give me a tip' for advice, " \
                     + "or say 'How do I brush my teeth?' for a description on how to brush teeth, "  \
-                    + "or say 'Set a timer for me to brush my teeth' for a 2 minute timer." 
+                    + "or say 'Set a timer for me to brush my teeth' for a 2 minute timer, "           \
+                    + 'or say "How do I floss my teeth?" for a description on how to floss teeth, '           \
+                    + 'or say "How do I wash my hands?" for a description on how to wash hands.'
 
     reprompt_text   = 'Say, set a timer for me to wash my hands.'
 
@@ -875,7 +879,7 @@ def lambda_handler(event, context):
     function.
     """
     if (event['session']['application']['applicationId'] !=
-             "amzn1.ask.skill.8d79bb6e-a5f9-4894-97b5-1d26abd44501"):
+             "amzn1.ask.skill.069a8d53-f6f4-473b-a78a-97f446e7671f"):
          raise ValueError("Invalid Application ID")
     
 
